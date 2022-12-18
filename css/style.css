@@ -1,0 +1,133 @@
+.jumbotron {
+  background-image: url(../img/jumbotron1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 900px;
+  margin-top: -150px;
+}
+
+.jumbotron .judul1 {
+  padding-top: 500px;
+  font-size: 70px;
+  margin-right: 700px;
+}
+.jumbotron .judul2 {
+  margin-top: -30px;
+  font-size: 70px;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid white;
+  margin: auto;
+  padding-bottom: 3px;
+}
+.panel {
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+
+.panel1 {
+  background-color: #f66a49;
+  /* margin-bottom: -350px;
+  margin-top: 50px; */
+}
+.panel2 {
+  background-color: #79c753;
+  /* margin-top: -10px;
+  margin-bottom: -250px; */
+}
+.panel3 {
+  background-color: #034f84;
+  /* margin-bottom: -350px;
+  margin-top: 50px; */
+}
+.panel4 {
+  background-color: #3298e7;
+  /* margin-top: -10px;
+  margin-bottom: -250px; */
+}
+
+.visi {
+  margin-top: 100px;
+}
+.visi1 {
+  margin-top: 100px;
+  font-size: 40px;
+}
+.section {
+  padding-top: 5rem;
+}
+
+.info {
+  padding-top: 100px;
+}
+.galeri {
+  padding-top: 100px;
+}
+.kontak {
+  padding-top: 100px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a#wa {
+  text-decoration: none;
+  color: black;
+}
+
+.post {
+  margin-top: 30px;
+}
+
+/* ANIMATION */
+
+/* Panel */
+.panel .pnl {
+  opacity: 0;
+  transform: translate(0, 40px);
+  transition: 0.5s;
+}
+
+.panel .pnl.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* Visi Misi */
+.vm .p {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: 0.5s;
+}
+
+.vm .p.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* Info */
+.info .card {
+  opacity: 0;
+  transform: translate(0, 40px);
+  transition: 0.5s;
+}
+
+.info .card.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* Galeri */
+.galeri .card {
+  opacity: 0;
+  transform: translate(0, 40px);
+  transition: 0.5s;
+}
+
+.galeri .card.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-bottom: 25px;
+}
